@@ -26,7 +26,7 @@ a {
 
 button {
   font-size: 23px;
-  transition: color 0.3s ease-in;
+  transition: color 0.2s ease-in;
 }
 
 button:hover {
