@@ -51,19 +51,23 @@ button:hover {
   background-color: white;
 }
 
-.col-sm-6 {
-  padding: 0;
-}
-
 .header-left {
-  padding-left: 100px;
-  padding-top: 60px;
+  padding: 60px 0px 60px 100px;
 }
 .col {
   border: #1b1b1b solid 2px;
   border-radius: 10px;
 }
 
+#header-intro {
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.header-right {
+  padding-top: 60px;
+}
 /* case links */
 .cases {
   margin-top: 100px;

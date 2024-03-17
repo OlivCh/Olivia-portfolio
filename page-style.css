@@ -17,10 +17,26 @@ h2 {
   letter-spacing: 3px;
   font-weight: 400;
   color: #97b853;
+  margin-bottom: 20px;
 }
 
 h3 {
+  color: #808080;
   font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+h5 {
+  font-size: 15px;
   font-weight: 200;
   letter-spacing: 2px;
   line-height: 30px;
@@ -56,18 +72,46 @@ button:hover {
   background-color: #f8f8f8;
 }
 
-.col-sm-6 {
-  padding: 0;
-}
-
 /* header section */
 
 .header {
   padding-top: 150px;
+  position: relative;
 }
 
 .header h1 {
   margin-bottom: 40px;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.header h3 {
+  font-weight: 300;
+}
+
+.header .header-right {
+  position: absolute;
+  top: 140px;
+  right: -10px;
+  display: flex;
+  animation: slideInRight 1.5s forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    right: -800px;
+  }
+  to {
+    right: -10px;
+  }
+}
+
+.header-right img {
+  position: relative;
+  display: inline-block;
 }
 
 .header-left {
@@ -86,4 +130,33 @@ button:hover {
 
 #header-img-right {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+/* spacing */
+
+.overview {
+  margin-top: 200px;
+}
+
+#full-img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bottom {
+  margin-bottom: 100px;
+}
+
+.center-image {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.content .container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.challenges-section {
+  margin-bottom: 20px;
 }
