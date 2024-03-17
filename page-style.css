@@ -4,3 +4,86 @@ body {
   color: #1b1b1b;
   background-color: #f8f8f8;
 }
+
+/* font style */
+h1 {
+  font-family: "Abril Fatface", serif;
+  letter-spacing: 8px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  color: #97b853;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.navbar {
+  padding: 30px 0;
+  border-bottom: #1b1b1b solid 2px;
+}
+
+.navbar-brand {
+  font-family: "Abril Fatface", serif;
+  font-size: 35px;
+}
+
+button {
+  font-size: 23px;
+  transition: color 0.2s ease-in;
+}
+
+button:hover {
+  color: #bfbfbf;
+}
+
+.link-left {
+  border: none;
+  background-color: #f8f8f8;
+  margin-right: 30px;
+}
+
+.link {
+  border: none;
+  background-color: #f8f8f8;
+}
+
+.col-sm-6 {
+  padding: 0;
+}
+
+/* header section */
+
+.header {
+  padding-top: 150px;
+}
+
+.header h1 {
+  margin-bottom: 40px;
+}
+
+.header-left {
+  margin-top: 50px;
+}
+
+.header-img {
+  border: #1b1b1b solid 2px;
+  padding-left: 280px;
+}
+
+#header-img-left {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  margin-right: 30px;
+}
+
+#header-img-right {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
