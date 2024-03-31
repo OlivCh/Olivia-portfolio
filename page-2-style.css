@@ -144,3 +144,38 @@ button:hover {
 .final {
   margin-top: 100px;
 }
+
+.next-link {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.next-link:hover {
+  cursor: pointer;
+}
+
+.next-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.next-link h1 {
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.next-link h2 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  overflow: hidden;
+}
+
+.next-link h2::after {
+  content: " →";
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.next-link:hover h2::after {
+  opacity: 1;
+}
