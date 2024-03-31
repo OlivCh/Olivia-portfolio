@@ -16,7 +16,7 @@ h2 {
   font-size: 25px;
   letter-spacing: 3px;
   font-weight: 400;
-  color: #97b853;
+  color: #6a90ca;
   margin-bottom: 20px;
 }
 
@@ -78,8 +78,8 @@ button:hover {
 /* header section */
 
 .header {
-  padding-top: 150px;
-  position: relative;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .header h1 {
@@ -95,49 +95,14 @@ button:hover {
   font-weight: 300;
 }
 
-.header .header-right {
-  position: absolute;
-  top: 140px;
-  right: -10px;
-  display: flex;
-  animation: slideInRight 1.5s forwards;
+.header img {
+  width: 60%;
 }
 
-@keyframes slideInRight {
-  from {
-    right: -800px;
-  }
-  to {
-    right: -10px;
-  }
-}
-
-.header-right img {
-  position: relative;
-  display: inline-block;
-}
-
-.header-left {
-  margin-top: 50px;
-}
-
-.header-img {
-  border: #1b1b1b solid 2px;
-  padding-left: 280px;
-}
-
-#header-img-left {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-  margin-right: 30px;
-}
-
-#header-img-right {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-}
 /* spacing */
 
 .overview {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 #full-img {
@@ -162,4 +127,20 @@ button:hover {
 
 .challenges-section {
   margin-bottom: 20px;
+}
+
+#iteration {
+  text-align: center;
+  background-color: #e1e9f4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.final h4 {
+  font-weight: 500;
+}
+
+.final {
+  margin-top: 100px;
 }
