@@ -2,7 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   color: #1b1b1b;
-  background-color: #f8f8f8;
+  background-color: #f7f5f4;
 }
 
 img {
@@ -53,7 +53,7 @@ button:hover {
 }
 
 .header-left {
-  padding: 60px 0px 60px 100px;
+  padding: 90px 0px 60px 100px;
 }
 .col {
   border: #1b1b1b solid 2px;
@@ -67,7 +67,7 @@ button:hover {
 }
 
 .header-right {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 /* case links */
 .cases {
