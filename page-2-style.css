@@ -97,6 +97,18 @@ button:hover {
 
 .header img {
   width: 60%;
+  animation: slideUp 1s forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* spacing */
